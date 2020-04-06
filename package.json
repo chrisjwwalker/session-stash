@@ -2,6 +2,10 @@
   "name": "session-stash",
   "version": "0.0.0",
   "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=12.16.1"
+  },
   "scripts": {
     "start": "node app.js"
   },
@@ -12,5 +16,10 @@
     "http-errors": "~1.7.3",
     "morgan": "~1.10.0",
     "pug": "2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-security": "^1.4.0"
   }
 }
